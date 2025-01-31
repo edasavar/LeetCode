@@ -28,7 +28,10 @@ class Solution:
         return not stack
     
 # Tests function
+
 def test_isValid():
+    
+    # instance of solution class
     solution = Solution()
 
     # Test cases
@@ -45,6 +48,7 @@ def test_isValid():
         "({[": False,  # Incomplete opening
         "}])": False,  # Closing without opening
     }
+
 
     for s, expected in test_cases.items():
         result = solution.isValid(s)
