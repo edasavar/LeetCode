@@ -24,7 +24,10 @@ class Solution:
                 if not stack or mapping[char] != stack.pop():
                     return False
         
-        
+        # check if the stack is empty
+        # will return true if the stack is empty
+        # empty stacks are considered false, 
+        # so 'not' empty stack = true
         return not stack
     
 # Tests function
