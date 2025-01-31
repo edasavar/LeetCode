@@ -57,8 +57,6 @@ def test_isValid():
 
     print("All tests passed!")
 
-# Run tests only when the script is executed directly
-if __name__ == "__main__":
     test_isValid()
         
         
