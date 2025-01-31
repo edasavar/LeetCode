@@ -1,5 +1,4 @@
 # LeetCode
-
 Python practice with exercises from LeetCode.
 
 ### Setting up python environment
